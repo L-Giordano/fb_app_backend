@@ -1,0 +1,7 @@
+import os
+
+FBOOKING_DB_NAME = os.getenv('FBOOKING_DB_NAME', 'db')
+FBOOKING_DB_USER = os.getenv('FBOOKING_DB_USER', 'user')
+FBOOKING_DB_PASSWORD = os.getenv('FBOOKING_DB_PASSWORD', '123456')
+FBOOKING_DB_HOST = os.getenv('FBOOKING_DB_HOST', 'localhost')
+FBOOKING_DB_PORT = os.getenv('FBOOKING_DB_PORT', '3306')
